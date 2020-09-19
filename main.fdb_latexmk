@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1600541712 "main.tex" "main.pdf" "main" 1600541712
+["pdflatex"] 1600556158 "main.tex" "main.pdf" "main" 1600556158
   "/dev/null" 1598625283 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/home/fouche/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/home/fouche/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1248133631 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -108,11 +108,11 @@
   "/home/fouche/texmf/tex/generic/commutative-diagrams/tikzlibrarycommutative-diagrams.ramma.code.tex" 1593511023 4387 a52438a19b3914d7bffe00aa20744393 ""
   "/home/fouche/texmf/tex/generic/commutative-diagrams/tikzlibrarycommutative-diagrams.velos.code.tex" 1593511023 7600 0eb910f91ba0b0aba6ccfcda8299d097 ""
   "/home/fouche/texmf/tex/latex/commutative-diagrams/commutative-diagrams.sty" 1593511023 481 a8551534a1141f624e295e601fe3bb60 ""
-  "edron-1.tex" 1600541625 547 9ab33f3678f73e0f97e3978bb51941d1 ""
-  "edron-2.tex" 1600541710 419 ad00ab026cdd860b08a5cb6172412955 ""
-  "main.aux" 1600541712 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
-  "main.tex" 1600541501 969 efd6f10e5e70547a65f26a67fede8e86 ""
+  "edron-1.tex" 1600556057 504 3eee268af6e8be80b542a09e00f1ffd4 ""
+  "edron-2.tex" 1600555976 421 5961fe72009ad0ff4cccb1caf35efcc3 ""
+  "main.aux" 1600556158 8 a94a2480d3289e625eea47cd1b285758 "pdflatex"
+  "main.tex" 1600556156 966 0ec33fca0239b62d04e2afda2c187ee4 ""
   (generated)
-  "main.log"
-  "main.aux"
   "main.pdf"
+  "main.aux"
+  "main.log"

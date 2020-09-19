@@ -8,29 +8,29 @@
 
 \begin{document}
 \begin{tikzpicture}[codi,scale=1.5,every node/.style={minimum size=1cm},on grid]
-	\begin{scope}[
-			yshift=-120,
-			every node/.append style={yslant=\yslant,xslant=\xslant},
-			yslant=\yslant,xslant=\xslant
-		]
-		% first frame:
-		\draw[black, dashed, thin] (0,0) rectangle (12,12);
-	\end{scope}
-	\begin{scope}[
-			every node/.append style={yslant=\yslant,xslant=\xslant},
-			yslant=\yslant,xslant=\xslant
-		]
-		% edron-1
-		\begin{scope}[xshift=3.25cm, yshift=1.75cm]
-			\input{edron-1.tex}
-		\end{scope}
-		% second frame:
-		\fill[white,fill opacity=.825] (0,0) rectangle (12,12); % Play w/ opacity
-		\draw[black, dashed, thin] (0,0) rectangle (12,12);
+ \begin{scope}[
+   yshift=-200,
+   every node/.append style={yslant=\yslant,xslant=\xslant},
+   yslant=\yslant,xslant=\xslant
+  ]
+  % first frame:
+  \draw[black, dashed, thin] (0,0) rectangle (12,12);
+ \end{scope}
+ \begin{scope}[
+   every node/.append style={yslant=\yslant,xslant=\xslant},
+   yslant=\yslant,xslant=\xslant
+  ]
+  % edron-1
+  \begin{scope}[xshift=2cm, yshift=-1.5cm]
+   \input{edron-1.tex}
+  \end{scope}
+  % second frame:
+  \fill[white,fill opacity=.825] (0,0) rectangle (12,12); % Play w/ opacity
+  \draw[black, dashed, thin] (0,0) rectangle (12,12);
 
-		\begin{scope}[xshift=5.5cm, yshift=6cm]
-			\input{edron-2.tex}
-		\end{scope}
-	\end{scope}
+  \begin{scope}[xshift=5.5cm, yshift=6cm]
+   \input{edron-2.tex}
+  \end{scope}
+ \end{scope}
 \end{tikzpicture}
 \end{document}

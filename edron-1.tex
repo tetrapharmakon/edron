@@ -1,14 +1,14 @@
 \foreach \i/\j in
-	{ 0/a(b(c(de)))
-		, 1/a(b((cd)e))
-		, 2/a((b(cd))e)
-		, 3/(a(b(cd)))e
-		, 4/(a((bc)d))e
-		, 5/(a((bc)d))e
-		, 6/(((ab)c)d)e
-		, 7/((ab)c)(de)
-		, 8/(ab)(c(de))
-	}
+  { 0/a(b(c(de)))
+  , 1/a(b((cd)e))
+  , 2/a((b(cd))e)
+  , 3/(a(b(cd)))e
+  , 4/(a((bc)d))e
+  , 5/(a((bc)d))e
+  , 6/(((ab)c)d)e
+  , 7/((ab)c)(de)
+  , 8/(ab)(c(de))
+  }
 \node (\i) at (\i*40:4) {$\j$};
 \node (i) at (-60:2.5) {$(a(bc))(de)$};
 \node (j) at (40:1.75) {$a((bc)(de))$};
@@ -16,10 +16,10 @@
 %==
 \mor 0 <- 1 <- 2 <- 3 <- 4 <- 5 <- 6 -> 7 -> 8 -> 0;
 % 
-\draw[->] (i) -- (j);
-\draw[->] (k) -- (j);
-\draw[->] (k) -- (2);
+\mor i -> j;
+\mor k -> *;
+\mor * -> 2;
 \draw[->] (4) -- (k);
 \draw[->] (j) -- (0);
-\draw[->] (7) -- (i);
-\draw[->] (5) -- (i);
+\mor 7 -> i;
+\mor 5 -> *;
